@@ -8,22 +8,71 @@
         table,tr,th,td{
             border:solid 1px black;
         }
-    </style>
+        .intro{
+            background-color: white;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 50px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .supermanimg{
+            border-radius:50px;
+            margin-top: 20px;
+        }
+        .introduction{
+            background-color: white;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+      }
+      .evaluation
+      {
+        background-color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .tableevaluate{
+        margin: auto;
+      }
+      .others{
+        background-color: white;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 20px;
+        padding: 10px;
+     }
+      
+      </style>
 </head>
-<body>
-    <img src="./superman.jpg"></img>
-    <h1>I am SUPERMAN</h1>
+<body style="background-color: #BBD8A3;">
+    <div class="intro">
+        <img src="./superman.jpg" class="supermanimg"></img>
+        <h1>I am SUPERMAN</h1>
+    </div>
+    
     <hr>
-    <h1>Introduction</h1>
-    <p>
+    <div class="introduction">
+        <h1 style="text-align: center;">Introduction</h1>
+    <p style="text-align: center;">
         Superman, also known as <strong>Clark Kent or Kal-El </strong>, is a superhero from the planet <i>Krypton.</i><br>He was sent 
         to Earth as a baby and raised by human parents. With powers like super <u>strength,</u> <u>flight</u>, and <u>heat vision</u><br>
         , he fights for truth, justice, and the <b><i><u>American Superman is one of the most iconic and beloved superheroes in comic book history.</u></i></b> 
     </p>
+    </div>
+    
     <hr>
-    <h1>Evalution</h1>
+    <div class="evaluation">
+        <h1>Evalution</h1>
     <p>Based on the table below are the streght atributes of the superman</p>
-    <table style="border: solid 5px black;">
+    <table style="border: solid 5px black;" class="tableevaluate">
         <tr style="border: solid 5px black;">
             <th style="border: solid 5px black;">Atributes</th>
             <th style="border: solid 5px black;">rating</th>
@@ -45,8 +94,12 @@
             <td style="border: solid 5px black;">Superman is always ready to protect humanity, often responding to crises in mere seconds </td>
         </tr>
     </table>
+
+    </div>
+    
     <hr>
-    <h1>Others <i>Superhero</i></h1>
+    <div class="others">
+        <h1>Others <i>Superhero</i></h1>
     <table>
         <tr>
             <th>Superhero</th>
@@ -71,5 +124,8 @@
             </td>
         </tr>
     </table>
+
+    </div>
+    
 </body>
 </html>
